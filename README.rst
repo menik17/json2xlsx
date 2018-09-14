@@ -5,6 +5,8 @@ json2xlsx is a tool to generate MS-Excel Spreadsheets from JSON files.
 
 Installation
 ------------
+Code::
+
     $ cd some_temporary_dir
     $ git clone git://github.com/menik17/json2xlsx.git
     $ cd json2xlsx
