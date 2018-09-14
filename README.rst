@@ -5,16 +5,6 @@ json2xlsx is a tool to generate MS-Excel Spreadsheets from JSON files.
 
 Installation
 ------------
-Install as general python modules. Briefly, do as follows::
-
-    $ sudo easy_install json2xlsx
-
-You can also use pip::
-
-    $ sudo pip install json2xlsx
-
-If you want to install the latest (likely development) version, then do as follows::
-
     $ cd some_temporary_dir
     $ git clone git://github.com/menik17/json2xlsx.git
     $ cd json2xlsx
