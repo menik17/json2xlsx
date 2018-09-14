@@ -423,6 +423,7 @@ def main_real():
                 render(workbook, cursor, y_size, x_size, render_state, [render_state['current_table']])
                 render_state['header_needed'] = False
             if node_type == 'load':
+                node['linebyline'] = True
                 load_from_json_file_and_render(node['filename'], node['caption'], node['linebyline'] != None)
             elif node_type == 'loadcsv':
                 load_from_csv_file_and_render(node['filename'], node['column_order'], node['caption'], node['has_header'])
