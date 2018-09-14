@@ -16,7 +16,7 @@ You can also use pip::
 If you want to install the latest (likely development) version, then do as follows::
 
     $ cd some_temporary_dir
-    $ git clone git://github.com/mkasa/json2xlsx.git
+    $ git clone git://github.com/menik17/json2xlsx.git
     $ cd json2xlsx
     $ python setup.py build
     $ sudo python setup.py install
